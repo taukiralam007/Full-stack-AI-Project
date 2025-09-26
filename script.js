@@ -30,3 +30,15 @@ console.log(typeof age);
 let isStudents = false;
 console.log(typeof isStudents);
 console.log(typeof price);
+
+//* 3. Boolean
+let isStudent = false;
+console.log(typeof isStudent);
+
+//* 4. undefined
+let futureGoal;
+console.log(typeof futureGoal);
+
+//* 5. Null
+let currentjob = null;
+console.log(typeof currentjob);
