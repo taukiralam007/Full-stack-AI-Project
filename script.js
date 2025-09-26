@@ -42,3 +42,14 @@ console.log(typeof futureGoal);
 //* 5. Null
 let currentjob = null;
 console.log(typeof currentjob);
+
+//!---Non Primitive type --
+let fruits = ["Appe", "Banana", "Kiwi"];
+let mixedData = [true, 30, 199.99, "Emmanuel", [1, 2, 3]];
+
+//*2  objects
+let person = {
+  firstName: "Taukir ",
+  lastName: "Alam",
+  age: 30,
+};
