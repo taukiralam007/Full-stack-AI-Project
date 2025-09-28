@@ -65,12 +65,39 @@
 
 // !====METHODS =====
 //* toFixed
-let amount = 19.393;
-let results = amount.toFixed(2);
-console.log(results);
+// let amount = 19.393;
+// let results = amount.toFixed(2);
+// console.log(results);
 
-//* isNan
-let qrt = "50";
-let convertedNum = parseFloat(qrt);
-// console.log(convertedNum);
-console.log(typeof qrt);
+// //* isNan
+// let qrt = "50";
+// let convertedNum = parseFloat(qrt);
+// // console.log(convertedNum);
+// console.log(typeof qrt);
+
+let apples = 10;
+let oranges = 5;
+let totalFruits = apples + oranges;
+
+//! substraction
+let intialBalance = 1000;
+let withdrawal = 300;
+let newBalance = intialBalance - withdrawal;
+
+//! multiplication
+let price = 20;
+let quantity = 4;
+let totalCost = price * quantity;
+
+//! Division
+
+let totalDistance = 120;
+let totalHours = 20;
+let speed = totalDistance / totalHours;
+console.log("Total speed is :", speed, "km/h");
+
+//* modulus
+let totalStudents = 55;
+let groupSize = 6;
+let remainingStudents = totalStudents % groupSize;
+cosole.log(remainingStudents);
