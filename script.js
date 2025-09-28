@@ -23,36 +23,54 @@
 //! ------primative type--
 //*. Numbers
 
-let age = 28;
-let price = 19.99;
-console.log(typeof age);
-//* 2. Strings
-let isStudents = false;
-console.log(typeof isStudents);
-console.log(typeof price);
+// let age = 28;
+// let price = 19.99;
+// console.log(typeof age);
+// //* 2. Strings
+// let isStudents = false;
+// console.log(typeof isStudents);
+// console.log(typeof price);
 
-//* 3. Boolean
-let isStudent = false;
-console.log(typeof isStudent);
+// //* 3. Boolean
+// let isStudent = false;
+// console.log(typeof isStudent);
 
-//* 4. undefined
-let futureGoal;
-console.log(typeof futureGoal);
+// //* 4. undefined
+// let futureGoal;
+// console.log(typeof futureGoal);
 
-//* 5. Null
-let currentjob = null;
-console.log(typeof currentjob);
+// //* 5. Null
+// let currentjob = null;
+// console.log(typeof currentjob);
 
-//!---Non Primitive type --
-let fruits = ["Appe", "Banana", "Kiwi"];
-let mixedData = [true, 30, 199.99, "Emmanuel", [1, 2, 3]];
+// //!---Non Primitive type --
+// let fruits = ["Appe", "Banana", "Kiwi"];
+// let mixedData = [true, 30, 199.99, "Emmanuel", [1, 2, 3]];
 
-//*2  objects
-let person = {
-  firstName: "Taukir ",
-  lastName: "Alam",
-  age: 30,
-};
+// //*2  objects
+// let person = {
+//   firstName: "Taukir ",
+//   lastName: "Alam",
+//   age: 30,
+// };
 
-let amount = 40;
-console.log(amount);
+// let amount = 40;
+// amount = 100;
+// amount = 0;
+// const carName = "BMW";
+// carName = "Volvo";
+// cosole.log( carName);
+
+// console.log(amount);
+
+// !====METHODS =====
+//* toFixed
+let amount = 19.393;
+let results = amount.toFixed(2);
+console.log(results);
+
+//* isNan
+let qrt = "50";
+let convertedNum = parseFloat(qrt);
+// console.log(convertedNum);
+console.log(typeof qrt);
