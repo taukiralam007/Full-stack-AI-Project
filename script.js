@@ -53,3 +53,6 @@ let person = {
   lastName: "Alam",
   age: 30,
 };
+
+let amount = 40;
+console.log(amount);
