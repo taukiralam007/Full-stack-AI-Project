@@ -5,7 +5,6 @@ const Banner = () => {
     >
       <h2> Make a difference </h2>
       <p> your donations help us create positive change in the community</p>
-      <button>Donate Now</button>
     </section>
   );
 };
